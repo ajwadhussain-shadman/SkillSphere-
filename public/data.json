@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.postimg.cc/example-course1.png",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
     "category": "Development"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Master SEO, Facebook Ads, and online marketing strategies.",
-    "image": "https://i.postimg.cc/example-course2.png",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
     "category": "Marketing"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Learn Photoshop, Illustrator, and modern design principles.",
-    "image": "https://i.postimg.cc/example-course3.png",
+    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=1200&auto=format&fit=crop",
     "category": "Design"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Design user-friendly interfaces and engaging user experiences.",
-    "image": "https://i.postimg.cc/example-course4.png",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?q=80&w=1200&auto=format&fit=crop",
     "category": "UI/UX"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Analyze business data using Excel and visualization tools.",
-    "image": "https://i.postimg.cc/example-course5.png",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop",
     "category": "Business"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.7,
     "level": "Beginner",
     "description": "Capture stunning photos and edit them professionally.",
-    "image": "https://i.postimg.cc/example-course6.png",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
     "category": "Photography"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Start coding in Python and build real-world projects.",
-    "image": "https://i.postimg.cc/example-course7.png",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
     "category": "Programming"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.6,
     "level": "Intermediate",
     "description": "Edit cinematic videos and create engaging content.",
-    "image": "https://i.postimg.cc/example-course8.png",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop",
     "category": "Video Editing"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.4,
     "level": "Beginner",
     "description": "Create viral content for Instagram, TikTok, and YouTube.",
-    "image": "https://i.postimg.cc/example-course9.png",
+    "image": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?q=80&w=1200&auto=format&fit=crop",
     "category": "Content Creation"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.8,
     "level": "Advanced",
     "description": "Learn ethical hacking and network security basics.",
-    "image": "https://i.postimg.cc/example-course10.png",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1200&auto=format&fit=crop",
     "category": "Cyber Security"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Design modern mobile app interfaces using Figma.",
-    "image": "https://i.postimg.cc/example-course11.png",
+    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200&auto=format&fit=crop",
     "category": "Design"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Learn how to build and grow a successful startup.",
-    "image": "https://i.postimg.cc/example-course12.png",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1200&auto=format&fit=crop",
     "category": "Business"
   }
 ]

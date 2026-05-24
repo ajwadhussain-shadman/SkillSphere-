@@ -20,7 +20,7 @@ const Banner = () => {
                         <button className='btn btn-secondary'>Demo</button>
                     </div>
             </div>
-            <div>
+            <div className='p-8 rounded-2xl bg-sky-100 shadow-xl'>
              <Image src={BannerImg} width={400} height={300} alt='bannerImg'></Image>
             </div>
         </div>
