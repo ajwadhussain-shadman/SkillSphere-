@@ -14,9 +14,9 @@ const Navbar = () => {
             <ul
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-              <li><Navlink href={"/"}>Home</Navlink ></li>
-              <li><Navlink href={"/courses"}>Courses</Navlink></li>
-              <li><Navlink href={"/my-profile"}>My Profile</Navlink></li>
+               <li><Navlink href={"/"}>Home</Navlink></li>
+            <li><Navlink href={"/courses"}>Courses</Navlink></li>
+            <li><Navlink href={"/my-profile"}>My Profile</Navlink></li>
             </ul>
           </div>
           <Link href={"/"}
@@ -25,11 +25,11 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li><Navlink href={"/"}>Home</Navlink></li>
-            <li><Navlink href={"/main/courses"}>Courses</Navlink></li>
-            <li><Navlink href={"/main/my-profile"}>My Profile</Navlink></li>
+            <li><Navlink href={"/courses"}>Courses</Navlink></li>
+            <li><Navlink href={"/my-profile"}>My Profile</Navlink></li>
           </ul>
         </div>
-        <div className="navbar-end space-x-4 ">
+        <div className="navbar-end space-x-4 mr-4">
          <button className=''><Navlink href={'/auth/login'} className={'btn border-2 border-cyan-800 bg-cyan-500 text-white'} >Login</Navlink ></button>
          <button className=''><Navlink href={'/auth/register'} className={'btn border-2 border-cyan-800 bg-cyan-500 text-white'} >Register</Navlink ></button>
         </div>

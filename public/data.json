@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Digital Marketing Mastery",
+    "instructor": "Sophia Lee",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master SEO, Facebook Ads, and online marketing strategies.",
+    "image": "https://i.postimg.cc/example-course2.png",
+    "category": "Marketing"
+  },
+  {
+    "id": 3,
+    "title": "Graphic Design Essentials",
+    "instructor": "Michael Carter",
+    "duration": "16 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn Photoshop, Illustrator, and modern design principles.",
+    "image": "https://i.postimg.cc/example-course3.png",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Complete Guide",
+    "instructor": "Emma Wilson",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Design user-friendly interfaces and engaging user experiences.",
+    "image": "https://i.postimg.cc/example-course4.png",
+    "category": "UI/UX"
+  },
+  {
+    "id": 5,
+    "title": "Business Analytics with Excel",
+    "instructor": "Daniel Smith",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Analyze business data using Excel and visualization tools.",
+    "image": "https://i.postimg.cc/example-course5.png",
+    "category": "Business"
+  },
+  {
+    "id": 6,
+    "title": "Photography & Photo Editing",
+    "instructor": "Olivia Brown",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Capture stunning photos and edit them professionally.",
+    "image": "https://i.postimg.cc/example-course6.png",
+    "category": "Photography"
+  },
+  {
+    "id": 7,
+    "title": "Python Programming for Beginners",
+    "instructor": "James Anderson",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Start coding in Python and build real-world projects.",
+    "image": "https://i.postimg.cc/example-course7.png",
+    "category": "Programming"
+  },
+  {
+    "id": 8,
+    "title": "Video Editing with Premiere Pro",
+    "instructor": "William Scott",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Edit cinematic videos and create engaging content.",
+    "image": "https://i.postimg.cc/example-course8.png",
+    "category": "Video Editing"
+  },
+  {
+    "id": 9,
+    "title": "Social Media Content Creation",
+    "instructor": "Ava Martinez",
+    "duration": "9 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Create viral content for Instagram, TikTok, and YouTube.",
+    "image": "https://i.postimg.cc/example-course9.png",
+    "category": "Content Creation"
+  },
+  {
+    "id": 10,
+    "title": "Cyber Security Fundamentals",
+    "instructor": "Chris Johnson",
+    "duration": "19 hours",
+    "rating": 4.8,
+    "level": "Advanced",
+    "description": "Learn ethical hacking and network security basics.",
+    "image": "https://i.postimg.cc/example-course10.png",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 11,
+    "title": "Mobile App Design with Figma",
+    "instructor": "Isabella Taylor",
+    "duration": "11 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Design modern mobile app interfaces using Figma.",
+    "image": "https://i.postimg.cc/example-course11.png",
+    "category": "Design"
+  },
+  {
+    "id": 12,
+    "title": "Entrepreneurship & Startup Basics",
+    "instructor": "David Miller",
+    "duration": "8 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn how to build and grow a successful startup.",
+    "image": "https://i.postimg.cc/example-course12.png",
+    "category": "Business"
+  }
+]
