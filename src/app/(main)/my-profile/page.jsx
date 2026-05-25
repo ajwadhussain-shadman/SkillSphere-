@@ -1,9 +1,13 @@
+
 import React from 'react';
 
-const MyProfile = () => {
+
+const MyProfile =  () => {
+       
     return (
         <div>
             My profile
+            
         </div>
     );
 };
