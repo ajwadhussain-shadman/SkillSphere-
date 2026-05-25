@@ -1,11 +1,23 @@
+'use client'
 import Link from 'next/link';
 import React from 'react';
 import Navlink from './Navlink';
+import { authClient } from '@/lib/auth-client';
+import { div } from 'framer-motion/client';
+import { Avatar, Button } from '@heroui/react';
 
 const Navbar = () => {
+  const userData=authClient.useSession();
+  
+  const data=userData?.data?.user;
+  
+const handleSignOut=async()=>{
+  await authClient.signOut();
+}
+
   return (
-    <div className='container mx-auto'>
-      <div className="navbar bg-base-100 shadow-sm">
+    <div className=''>
+      <div className="navbar  bg-base-100 shadow-sm">
         <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,8 +42,17 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end space-x-4 mr-4">
-         <button className=''><Navlink href={'/auth/login'} className={'btn border-2 border-cyan-800 bg-cyan-500 text-white'} >Login</Navlink ></button>
-         <button className=''><Navlink href={'/auth/register'} className={'btn border-2 border-cyan-800 bg-cyan-500 text-white'} >Register</Navlink ></button>
+       {data ? <div className='flex gap-4'> 
+            <Avatar size="md">
+                <Avatar.Image
+                  alt={data?.name}
+                  src={data?.image}
+                />
+              </Avatar>
+              <Button onClick={handleSignOut} size="sm" variant="tertiary">SignOut</Button>
+          </div>: <div><Navlink href={'/auth/login'} className='btn !bg-green-400' >Login</Navlink >
+         <Navlink href={'/auth/register'} className={'btn'}>Register</Navlink > </div>}
+         
         </div>
       </div>
     </div>

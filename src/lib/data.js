@@ -6,3 +6,10 @@ export async function getCourseData() {
     return data;
     
 }
+
+export async function searchCourse(search){
+    const courses=await getCourseData();
+    const filteredCourses = courses.filter(course =>
+    course.title.toLowerCase().includes(search.toLowerCase()));
+    return filteredCourses;
+}

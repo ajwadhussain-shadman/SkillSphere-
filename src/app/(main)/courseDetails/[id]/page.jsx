@@ -1,6 +1,7 @@
 import CourseCard from '@/component/Shared/CourseCard';
 import { getCourseData } from '@/lib/data';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { BiStar } from 'react-icons/bi';
 
@@ -61,7 +62,10 @@ const CourseDetails = async ({ params }) => {
                         </p>
                     </div>
 
-                    <button className="btn bg-cyan-600 text-white mt-5">Purchase</button>
+                    <div className='flex gap-5 items-center'>
+                        <button className="btn bg-cyan-600 text-white mt-5">Purchase</button>
+                        <Link href={'/courses'}><button className='btn mt-5 btn-accent text-white'>Back</button></Link>
+                    </div>
 
                 </div>
             </div>
