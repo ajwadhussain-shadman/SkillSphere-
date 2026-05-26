@@ -6,7 +6,7 @@ import Link from 'next/link';
 import React from 'react';
 import { CiFloppyDisk } from 'react-icons/ci';
 import { GrGoogle } from 'react-icons/gr';
-
+import {Icon} from "@iconify/react";
 const Register =  () => {
 
     const handleGoogleSignUp= async()=>{
@@ -95,7 +95,10 @@ if (data) {
     </Form>
     <div className='max-w-96 mx-auto'>
           <p className='text-center font-bold mt-3'>OR</p>
-          <button className='btn w-full mt-3 text-center' onClick={handleGoogleSignUp}>Sign In with google <GrGoogle></GrGoogle> </button>
+         <Button className="w-full" variant="tertiary" onClick={handleGoogleSignUp}>
+        <Icon icon="devicon:google" />
+        Sign up with Google
+      </Button>
         </div>
           
           <div className='text-center mt-3'>

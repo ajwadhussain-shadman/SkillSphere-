@@ -64,7 +64,7 @@ const CourseDetails = async ({ params }) => {
 
                     <div className='flex gap-5 items-center'>
                         <button className="btn bg-cyan-600 text-white mt-5">Purchase</button>
-                        <Link href={'/courses'}><button className='btn mt-5 btn-accent text-white'>Back</button></Link>
+                        <Link href={'/courses'}><button className='btn mt-5 btn-accent text-white '>Back</button></Link>
                     </div>
 
                 </div>

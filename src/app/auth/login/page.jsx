@@ -62,6 +62,8 @@ if (data) {
             Login
           </Button>
 
+
+
              <Link href={'/auth/register'} className=''>
                <span className='text-red-500'>Register</span>
              </Link>
