@@ -1,7 +1,7 @@
 
 'use client'
 import { authClient } from '@/lib/auth-client';
-import { Button, Description, FieldError, FieldGroup, Fieldset, Form, Input, Label, TextArea, TextField, Toast, toast } from '@heroui/react';
+import { Alert, Button, Description, FieldError, FieldGroup, Fieldset, Form, Input, Label, TextArea, TextField, Toast, toast } from '@heroui/react';
 import Link from 'next/link';
 import React from 'react';
 import { CiFloppyDisk } from 'react-icons/ci';
@@ -23,7 +23,7 @@ const Login =  () => {
 });
 
 if (data) {
-      alert("Signin successful");
+      toast.success("login successful")
     }
   };
     return (
