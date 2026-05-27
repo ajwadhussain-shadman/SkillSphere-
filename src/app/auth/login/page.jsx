@@ -3,13 +3,17 @@
 import { authClient } from '@/lib/auth-client';
 import { Alert, Button, Description, FieldError, FieldGroup, Fieldset, Form, Input, Label, TextArea, TextField, Toast, toast } from '@heroui/react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import React from 'react';
 import { CiFloppyDisk } from 'react-icons/ci';
 
 const Login =  () => {
+
      const onSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
+
+  
   
     const user = {};
     formData.forEach((value, key) => {

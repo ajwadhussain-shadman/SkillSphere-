@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Time blocking",
+    "description": "25-minute focused sessions beat hours of distracted study every time.",
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "title": "Spaced repetition",
+    "description": "Review at increasing intervals to lock concepts into long-term memory.",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 3,
+    "title": "Set milestones",
+    "description": "Break each course into weekly goals and celebrate small wins.",
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 4,
+    "title": "Learn with peers",
+    "description": "Discussion forums and study groups deepen understanding significantly.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop"
+  }
+]

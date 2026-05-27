@@ -12,5 +12,5 @@ export async function proxy(request) {
 }
  
 export const config = {
-  matcher: ['/my-profile',"/courseDetails/:path"],
+  matcher: ['/my-profile',"/courseDetails/:path","/auth/updateData"],
 }
