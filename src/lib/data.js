@@ -13,3 +13,9 @@ export async function searchCourse(search){
     course.title.toLowerCase().includes(search.toLowerCase()));
     return filteredCourses;
 }
+
+export async function getTips() {
+    const res=await fetch('https://skill-sphere-bice-sigma.vercel.app/tips.json');
+    const data= await res.json();
+    return data;
+}

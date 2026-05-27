@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "specialty": "Full Stack Web Development",
+    "students": 12000,
+    "courses": 8,
+    "rating": 4.8,
+    "image": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sophia Lee",
+    "specialty": "Digital Marketing",
+    "students": 9800,
+    "courses": 6,
+    "rating": 4.7,
+    "image": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Michael Carter",
+    "specialty": "Graphic Design",
+    "students": 8600,
+    "courses": 5,
+    "rating": 4.6,
+    "image": "https://randomuser.me/api/portraits/men/51.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Emma Wilson",
+    "specialty": "UI/UX Design",
+    "students": 14200,
+    "courses": 9,
+    "rating": 4.9,
+    "image": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Daniel Smith",
+    "specialty": "Business Analytics",
+    "students": 7400,
+    "courses": 4,
+    "rating": 4.5,
+    "image": "https://randomuser.me/api/portraits/men/41.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Brown",
+    "specialty": "Photography",
+    "students": 9100,
+    "courses": 7,
+    "rating": 4.7,
+    "image": "https://randomuser.me/api/portraits/women/25.jpg"
+  },
+  {
+    "id": 7,
+    "name": "James Anderson",
+    "specialty": "Python Programming",
+    "students": 15800,
+    "courses": 10,
+    "rating": 4.8,
+    "image": "https://randomuser.me/api/portraits/men/63.jpg"
+  },
+  {
+    "id": 8,
+    "name": "William Scott",
+    "specialty": "Video Editing",
+    "students": 6700,
+    "courses": 5,
+    "rating": 4.6,
+    "image": "https://randomuser.me/api/portraits/men/77.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ava Martinez",
+    "specialty": "Content Creation",
+    "students": 8300,
+    "courses": 6,
+    "rating": 4.4,
+    "image": "https://randomuser.me/api/portraits/women/52.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Chris Johnson",
+    "specialty": "Cyber Security",
+    "students": 11200,
+    "courses": 7,
+    "rating": 4.8,
+    "image": "https://randomuser.me/api/portraits/men/29.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Isabella Taylor",
+    "specialty": "Mobile App Design",
+    "students": 7900,
+    "courses": 5,
+    "rating": 4.7,
+    "image": "https://randomuser.me/api/portraits/women/33.jpg"
+  },
+  {
+    "id": 12,
+    "name": "David Miller",
+    "specialty": "Entrepreneurship",
+    "students": 6200,
+    "courses": 4,
+    "rating": 4.5,
+    "image": "https://randomuser.me/api/portraits/men/55.jpg"
+  }
+]

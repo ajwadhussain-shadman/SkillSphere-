@@ -46,8 +46,6 @@ const UpdateData =  () => {
             Update
           </Button>
 
-
-
              <Link href={'/my-profile'} className=''>
                <span className='btn  text-red-500'>Back</span>
              </Link>
