@@ -45,7 +45,7 @@ const Navbar = () => {
 
           {
             isPending ? (<div className="w-20 h-8 bg-base-200 animate-pulse rounded"></div>) : (
-              data ? <div className='flex gap-4'>
+              data ? <div className='flex gap-1 flex-col md:flex-row items-center md:gap-4'>
                 <Avatar size="md">
                   <Avatar.Image
                     alt={data?.name}
@@ -53,7 +53,7 @@ const Navbar = () => {
                   />
                 </Avatar>
                 <Button onClick={handleSignOut} size="sm" variant="danger-soft">SignOut</Button>
-              </div> : (<div className='flex items-center gap-3'>
+              </div> : (<div className='flex items-center gap-1 md:gap-3 flex-col sm:flex-row '>
                 <Link href='/auth/login' style={{
                   display: 'inline-flex',
                   alignItems: 'center',

@@ -17,7 +17,7 @@ const PopularSection = async () => {
                 <h2 className='font-bold text-xl text-cyan-500'>Popular courses</h2>
                 <Link href={'/courses'}  className='text-pink-500'>View all <FaArrowRight className='inline-block' /> </Link>
             </div>
-            <div className='flex justify-between gap-4 my-5 '>
+            <div className='flex justify-between flex-col md:flex-row items-center gap-4 my-5 '>
                 {
                     PopularCourses.map(course => <CourseCard key={course.id} course={course}></CourseCard>)
                 }
