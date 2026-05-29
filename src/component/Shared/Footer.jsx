@@ -3,8 +3,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='w-11/12 mx-auto p-5 my-5 '>
-           <div className='flex justify-between  items-center'>
+        <div className=' p-5 my-5 '>
+           <div className='w-11/12 mx-auto flex flex-col gap-2 md:flex-row justify-between'>
              <div className='w-[250px]'>
                 <h1 className='text-2xl font-bold text-cyan-500'>SkillSphere</h1>
                 <p className='font-semibold opacity-50'>A modern online learning platform where students can develop real-world skills.</p>
