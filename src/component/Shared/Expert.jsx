@@ -8,7 +8,7 @@ const Expert = async () => {
     const experts=sortedInstructors.slice(0,4);
     console.log(experts)
     return (
-        <div className='my-3 w-11/12 mx-auto'>
+        <div className='my-3 w-11/12 mx-auto card'>
             <h2 className='text-2xl font-semibold text-pink-500 text-center'>Our Experts</h2>
             <div className='flex flex-col md:flex-row justify-between gap-4 items-center mt-4 '>
                 {
