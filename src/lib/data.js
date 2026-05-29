@@ -19,3 +19,8 @@ export async function getTips() {
     const data= await res.json();
     return data;
 }
+export async function getExpertData() {
+    const res=await fetch('https://skill-sphere-bice-sigma.vercel.app/expert.json');
+    const data= await res.json();
+    return data;
+}
