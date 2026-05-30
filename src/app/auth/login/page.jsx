@@ -31,7 +31,7 @@ if (data) {
     }
   };
     return (
-        <Form className="w-full max-w-96 mx-auto mt-5" onSubmit={onSubmit}>
+        <Form className="md:w-full max-w-96 mx-auto mt-5" onSubmit={onSubmit}>
       <Fieldset>
         <Fieldset.Legend className='text-center text-2xl font-bold text-cyan-500'>Login</Fieldset.Legend>
         <Description className='text-center text-lg text-gray-400'>Enter your profile information.</Description>

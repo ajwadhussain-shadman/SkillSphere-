@@ -6,7 +6,7 @@ import { BiStar } from 'react-icons/bi';
 
 const CourseCard = ({ course }) => {
     return (
-        <Card className='w-[350]'>
+        <Card className='w-full md:w-[350]'>
             <div className=' aspect-square relative '>
                 <Image src={course.image}
                     fill

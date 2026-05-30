@@ -37,7 +37,7 @@ if (data) {
   };
     return (
       <div className=''>
-        <Form className="w-full max-w-96 mx-auto mt-5" onSubmit={onSubmit}>
+        <Form className="md:w-full max-w-96 mx-auto mt-5" onSubmit={onSubmit}>
       <Fieldset>
         <Fieldset.Legend>Enter Your Information</Fieldset.Legend>
         <Description>Enter your profile information.</Description>
